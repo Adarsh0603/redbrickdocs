@@ -13,12 +13,39 @@ Add the below links in the head of your html file:
 ```html
 <link
   rel="stylesheet"
-  href="https://cdn.jsdelivr.net/gh/Adarsh0603/redbrick/css/config.css"
+  href="https://cdn.jsdelivr.net/npm/redbrick-css@latest/css/config.css"
 />
 <link
   rel="stylesheet"
-  href="https://cdn.jsdelivr.net/gh/Adarsh0603/redbrick/css/redbrick.min.css"
+  href="https://cdn.jsdelivr.net/npm/redbrick-css@latest/css/redbrick.min.css"
 />
+```
+
+## Download the files (With Configuration)
+
+You can also download the given css and js files and can easily modify the css theme for your project.
+
+[Download zip](https://github.com/Adarsh0603/redbrick/files/7639513/redbrick.zip)
+
+or Download Individual files
+
+[config.css](https://github.com/Adarsh0603/redbrick/releases/download/v0.0.1/config.css) | [redbrick.css](https://github.com/Adarsh0603/redbrick/releases/download/v0.0.1/redbrick.css) | [redbrick.js](https://github.com/Adarsh0603/redbrick/releases/download/v0.0.1/redbrick.js)
+
+Usage
+
+```html
+<head>
+  <!-- Change the directory as per your project structure -->
+  <link rel="stylesheet" href="/css/config.css" />
+  <link rel="stylesheet" href="/css/redbrick.css" />
+</head>
+
+<body>
+  .
+  .
+  <script src="/redbrick.js"></script>
+</body>
+</html>
 ```
 
 ## Use the starter template
@@ -31,35 +58,50 @@ Quickly get started with the Starter Template. Just copy/paste the below html in
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Hello Redbrick!</title>
+    <title>Your Site Title Here</title>
     <link
       rel="stylesheet"
-      href="https://cdn.jsdelivr.net/gh/Adarsh0603/redbrick/css/config.css"
+      href="https://cdn.jsdelivr.net/npm/redbrick-css@latest/css/config.css"
     />
     <link
       rel="stylesheet"
-      href="https://cdn.jsdelivr.net/gh/Adarsh0603/redbrick/css/redbrick.css"
+      href="https://cdn.jsdelivr.net/npm/redbrick-css@latest/css/redbrick.min.css"
     />
   </head>
+
   <body>
-    <section class="section">
-      <div class="container">
-        <h1 class="title">Hello World</h1>
-        <p class="subtitle">My first website with <strong>Redbrick</strong>!</p>
-      </div>
-    </section>
+    <div class="fl-center fl-col h-screen">
+      <p class="ts-4">
+        Ready to go with <br />
+        <strong>Redbrick 🚀</strong>
+      </p>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/redbrick-css@latest/redbrick.min.js"></script>
   </body>
 </html>
 ```
 
-## Download the CSS files (With Configuration)
+## Or use npm
 
-You can download the given css files and can easily modify the css theme for your project.
+```shell
+npm i redbrick-css
+```
 
-### [Download zip](https://github.com/Adarsh0603/redbrick/files/7639513/redbrick.zip)
+Link to css and js files:
 
-or Download Individual CSS files
-
-[config.css](https://github.com/Adarsh0603/redbrick/releases/download/v0.0.1/config.css)
-
-[redbrick.css](https://github.com/Adarsh0603/redbrick/releases/download/v0.0.1/redbrick.css)
+```html
+.
+.
+</head>
+<link rel="stylesheet" href="/node_modules/redbrick-css/css/config.css" />
+<link rel="stylesheet" href="/node_modules/redbrick-css/css/redbrick.css" />
+</head>
+.
+.
+<body>
+  .
+  .
+  <script src="/node_modules/redbrick-css/redbrick.js"></script>
+</body>
+```

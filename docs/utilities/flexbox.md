@@ -4,40 +4,38 @@ sidebar_position: 7
 
 # Flexbox
 
-Redbrick con
+Redbrick comes with frequently used flexbox classes.
 
-- For simplicity, Redbrick provides only 3 display classes.
-- All display classes contains responsive variants for different devices.
+- For simplicity, Redbrick provides only basic flexbox classes.
+- More classes will be added soon.
 
-## Hide Content
+| Class     | Use                                                                      |
+| --------- | ------------------------------------------------------------------------ |
+| fl-row    | Aligns all the underlying content in a row.                              |
+| fl-col    | Aligns all the underlying content in a column.                           |
+| fl-center | Aligns any underlying content in the center horizontally and vertically. |
 
-| Class    | Use                                          |
-| -------- | -------------------------------------------- |
-| hidden   | Hides the content on all device widths.      |
-| hidden-l | Hides the content on laptop width and below. |
-| hidden-t | Hides the content on tablet width and below. |
-| hidden-m | Hides the content on mobile width.           |
+## Justify
 
-**For Example - **
-The below class will hide the content on tablet width and below.
+| Class                    | Use                                                                   |
+| ------------------------ | --------------------------------------------------------------------- |
+| fl-justify-center        | Centers the content in the main axis.                                 |
+| fl-justify-space-between | Positions the content with equal space between them on the main axis. |
+| fl-justify-space-around  | Positions the content with equal space around them on the main axis.  |
+| fl-justify-space-evenly  | Evenly positions the content on the main axis.                        |
+| fl-justify-flex-end      | Puts the content at the end on the main axis.                         |
+| fl-justify-flex-start    | Puts the content at the start on the main axis.                       |
 
-```html
-<div class="hidden-t">Some Content</div>
-```
+## Align
 
-## Inline and Block
+| Class                  | Use                                                                    |
+| ---------------------- | ---------------------------------------------------------------------- |
+| fl-align-center        | Centers the content in the cross axis.                                 |
+| fl-align-space-between | Positions the content with equal space between them on the cross axis. |
+| fl-align-space-around  | Positions the content with equal space around them on the cross axis.  |
+| fl-align-space-evenly  | Evenly positions the content on the cross axis.                        |
+| fl-align-flex-end      | Puts the content at the end on the cross axis.                         |
+| fl-align-flex-start    | Puts the content at the start on the cross axis.                       |
 
-| Inline     | Block     | Use                                             |
-| ---------- | --------- | ----------------------------------------------- |
-| d-inline   | d-block   | Display inline/block.                           |
-| d-inline-l | d-block-l | Display inline/block on laptop width and below. |
-| d-inline-t | d-block-t | Display inline/block on tablet width and below. |
-| d-inline-m | d-block-m | Display inline/block on mobile width.           |
-
-**For Example - **
-The below classes will hide the content on desktop width and show the content
-on tablet width and below.
-
-```html
-<div class="hidden d-block-t">Some Content</div>
-```
+- With **fl-row** ---> main axis is **left to right** & cross axis is **top to bottom**.
+- With **fl-col** ---> main axis is **top to bottom** & cross axis is **left to right**.

@@ -6,8 +6,8 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: "Redbrick",
-  tagline: "A customizable css framework.",
+  title: "RedBrick",
+  tagline: "A Customizable CSS Framework.",
   url: "https://redbrick.netlify.app",
   baseUrl: "/",
   onBrokenLinks: "throw",
@@ -43,7 +43,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: "Redbrick",
+        title: "RedBrick",
         logo: {
           alt: "Redbrick Logo",
           src: "img/bricks.png",
@@ -55,9 +55,13 @@ const config = {
             position: "left",
             label: "Docs",
           },
-          // { to: "/blog", label: "Blog", position: "left" },
+
+          {
+            label: "Download",
+            to: "https://github.com/Adarsh0603/redbrick/files/7639513/redbrick.zip",
+          },
           // {
-          //   href: "https://github.com/facebook/docusaurus",
+          //   href: "",
           //   label: "GitHub",
           //   position: "right",
           // },
@@ -67,41 +71,25 @@ const config = {
         style: "dark",
         links: [
           {
-            title: "Docs",
+            title: "RedBrick CSS",
             items: [
               {
-                label: "Tutorial",
+                label: "Get Started",
                 to: "/docs/intro",
               },
-            ],
-          },
-          {
-            title: "Community",
-            items: [
               {
-                label: "Stack Overflow",
-                href: "https://stackoverflow.com/questions/tagged/docusaurus",
-              },
-              {
-                label: "Discord",
-                href: "https://discordapp.com/invite/docusaurus",
-              },
-              {
-                label: "Twitter",
-                href: "https://twitter.com/docusaurus",
+                label: "Download",
+                to: "https://github.com/Adarsh0603/redbrick/files/7639513/redbrick.zip",
               },
             ],
           },
+
           {
-            title: "More",
+            title: "Contribute",
             items: [
-              {
-                label: "Blog",
-                to: "/blog",
-              },
               {
                 label: "GitHub",
-                href: "https://github.com/facebook/docusaurus",
+                href: "https://github.com/Adarsh0603/redbrick",
               },
             ],
           },
