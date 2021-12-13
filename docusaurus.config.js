@@ -58,7 +58,7 @@ const config = {
 
           {
             label: "Download",
-            to: "https://github.com/Adarsh0603/redbrick/files/7639513/redbrick.zip",
+            to: "https://github.com/Adarsh0603/redbrick/files/7706749/redbrick.zip",
           },
           // {
           //   href: "",
@@ -79,7 +79,7 @@ const config = {
               },
               {
                 label: "Download",
-                to: "https://github.com/Adarsh0603/redbrick/files/7639513/redbrick.zip",
+                to: "https://github.com/Adarsh0603/redbrick/files/7706749/redbrick.zip",
               },
             ],
           },
