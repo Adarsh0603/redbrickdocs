@@ -25,11 +25,11 @@ Add the below links in the head of your html file:
 
 You can also download the given css and js files and can easily modify the css theme for your project.
 
-[redbrick.zip](https://github.com/Adarsh0603/redbrick/files/7706749/redbrick.zip)
+[redbrickv1.0.4.zip](https://github.com/Adarsh0603/redbrick/files/7709642/redbrickv1.0.4.zip)
 
 or Download Individual files
 
-[config.css](https://github.com/Adarsh0603/redbrick/releases/download/v1.0.2/config.css) | [redbrick.css](https://github.com/Adarsh0603/redbrick/releases/download/v1.0.2/redbrick.css) | [redbrick.js](https://github.com/Adarsh0603/redbrick/releases/download/v1.0.2/redbrick.js)
+[config.css](https://github.com/Adarsh0603/redbrick/releases/download/v1.0.4/config.css) | [redbrick.css](https://github.com/Adarsh0603/redbrick/releases/download/v1.0.4/redbrick.css) | [redbrick.js](https://github.com/Adarsh0603/redbrick/releases/download/v1.0.4/redbrick.js)
 
 Usage
 

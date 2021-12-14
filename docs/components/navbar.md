@@ -21,7 +21,7 @@ Responsive
 <img src="/img/demos/navbar3.png" width="300"/>
 
 ```html
-<nav class="navbar bg-link"> <!-- Change Background Here -->
+<nav class="navbar bg-link fixed"> <!-- Change Background Here -->
 <!-- Change Order of the below divs to get desired alignment -->
 <!-- Nav Items -->
     <div class="nav-items tc-white"> <!-- Change Text Color Here-->
