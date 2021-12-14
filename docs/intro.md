@@ -13,11 +13,11 @@ Add the below links in the head of your html file:
 ```html
 <link
   rel="stylesheet"
-  href="https://cdn.jsdelivr.net/npm/redbrick-css@latest/css/config.css"
+  href="https://cdn.jsdelivr.net/npm/redbrick-css@1.0.4/css/config.css"
 />
 <link
   rel="stylesheet"
-  href="https://cdn.jsdelivr.net/npm/redbrick-css@latest/css/redbrick.min.css"
+  href="https://cdn.jsdelivr.net/npm/redbrick-css@1.0.4/css/redbrick.min.css"
 />
 ```
 
@@ -61,11 +61,11 @@ Quickly get started with the Starter Template. Just copy/paste the below html in
     <title>Your Site Title Here</title>
     <link
       rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/redbrick-css@latest/css/config.css"
+      href="https://cdn.jsdelivr.net/npm/redbrick-css@1.0.4/css/config.css"
     />
     <link
       rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/redbrick-css@latest/css/redbrick.min.css"
+      href="https://cdn.jsdelivr.net/npm/redbrick-css@1.0.4/css/redbrick.min.css"
     />
   </head>
 
@@ -77,7 +77,7 @@ Quickly get started with the Starter Template. Just copy/paste the below html in
       </p>
     </div>
 
-    <script src="https://cdn.jsdelivr.net/npm/redbrick-css@latest/redbrick.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/redbrick-css@1.0.4/redbrick.min.js"></script>
   </body>
 </html>
 ```
